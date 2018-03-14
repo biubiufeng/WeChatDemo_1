@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/contact/contact"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#FFD700",
+    "navigationBarTitleText": "旅行葵花宝典",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "读书",
+        "iconPath":"./images/1.png",
+        "selectedIconPath": "./images/1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "旅行",
+        "iconPath": "./images/2.png",
+        "selectedIconPath":"./images/2.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "联系我",
+        "iconPath": "./images/3.png",
+        "selectedIconPath": "./images/3.png"
+      }
+    ],
+    "backgroundColor": "#FFD700",
+    "color": "#4D4D4D",
+    "selectedColor":"#121212"
+  }
+}

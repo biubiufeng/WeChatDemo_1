@@ -1,11 +1,13 @@
 <!--input.wxml-->
+<view class="container">
 <view class="section">
-  <input placeholder="这是一个可以自动聚焦的input" auto-focus/>
+  <input placeholder="请输入姓名" auto-focus/>
 </view>
 <view class="section">
-  <input placeholder="这个只有在按钮点击的时候才聚焦" focus="{{focus}}" />
+  <input placeholder="请输入联系方式" focus="{{focus}}" />
   <view class="btn-area">
-    <button bindtap="bindButtonTap">使得输入框获取焦点</button>
+    <button bindtap="bindButtonTap" type="primary" form-type="submit" size="mini">使得输入框获取焦点</button>
+  <button bindtap="bindButtonTap" type="primary" form-type="submit" size="mini" style="float:right">使得输入框获取焦点</button>
   </view>
 </view>
 <view class="section">
@@ -32,4 +34,12 @@
 </view>
 <view class="section">
   <input placeholder-style="color:red" placeholder="占位符字体是红色的" />
+</view>
+<view class="section">
+  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="自动变高"/>
+</view>
+
+<view class="section">
+  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="自动变高"/>
+</view>
 </view>

@@ -1,15 +1,16 @@
-//logs.js
-const util = require('../../utils/util.js')
-
+var app = getApp()
 Page({
-  data: {
-    logs: []
-  },
-  onLoad: function () {
-    this.setData({
-      logs: (wx.getStorageSync('logs') || []).map(log => {
-        return util.formatTime(new Date(log))
-      })
-    })
-  }
-})
+    modalcnt:function(){
+        wx.showModal({
+            title: '提示',
+            content: '这是一个模态弹窗',
+            success: function(res) {
+                if (res.confirm) {
+                console.log('用户点击确定')
+                } else if (res.cancel) {
+                console.log('用户点击取消')
+                }
+            }
+        })
+    }
+}) 

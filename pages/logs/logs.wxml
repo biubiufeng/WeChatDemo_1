@@ -1,6 +1,7 @@
 <!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+<view class="container">
+    <button class="but but_1" type="primary" bindtap="showok">消息提示框</button>
+      <button class="but" type="primary" bindtap="showok">消息提示框</button>
+        <button class="but" type="primary" bindtap="showok">消息提示框</button>
+          <button class="but" type="primary" bindtap="showok">消息提示框</button>
 </view>

@@ -1,8 +1,10 @@
-.log-list {
-  display: flex;
-  flex-direction: column;
-  padding: 40rpx;
+.container{
+background-color:#FFEC8B;
+  height: 150%;
 }
-.log-item {
-  margin: 10rpx;
+.but{
+margin-bottom:50px;
+}
+.but_1{
+margin-top:-20px;
 }

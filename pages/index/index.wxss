@@ -1,4 +1,8 @@
 /**index.wxss**/
+.container{
+background-color:#FFEC8B;
+padding: 250rpx 0;
+}
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -27,4 +31,7 @@
 /** 自定义其他点击态样式类 **/
 .other-navigator-hover {
     color:red;
+}
+.user-motto{
+ 
 }
